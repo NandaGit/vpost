@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestNG Learning">
+
+
+
+<test name="Login test">
+    <classes>
+       <!--  <class name="ss_tests.RegisteredLoginUserFlow"/>
+       <class name="ss_tests.MyShoppingclick"/>
+       <class name="ss_tests.Addvcare"/> --> 
+       <!-- <class name = "com.singpost.vpost.flow.Proceedtocheckoutclick"/>  -->
+       <class name = "com.singpost.vpost.flow.Payment"/>  
+    </classes>
+    </test>
+    
+    
+
+<!-- <listeners>
+  <listener class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+  <listener class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+  <listener class-name="atu.testng.reports.listeners.MethodListener"></listener>
+  </listeners> -->
+
+</suite>
